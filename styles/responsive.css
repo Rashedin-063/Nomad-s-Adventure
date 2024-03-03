@@ -91,8 +91,29 @@
     width: 100%;
     margin: 1rem 0;
   }
+  .about-us-section{
+    padding: 2rem;
+  }
+  .about-us-section p{
+    width: 100%;
+    
+  }
+  .newsletter-image{
+    width: 100%;
+   
+  }
   .newsletter-image img{
-    height: 300px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .saving-offer{
+    width: 60%;
+    right: 5px;
+    
+  }
+  .saving-offer h3{
+    font-size: 1.2rem;
   }
   footer {
     margin-top: 2rem;
@@ -178,9 +199,22 @@
     margin-top: 1.5rem;
     
   }
+  .about-us-section{
+    padding: 2rem;
+  }
+  .about-us-section p{
+    width: 100%;
+    
+  }
   .newsletter-content{
     width: 100%;
     margin: 1rem 0;
+  }
+  .newsletter-image{
+    width: 100%;
+  }
+  .newsletter-image img{
+    margin: 0 auto;
   }
   .saving-offer{
     width: 240px;
@@ -227,14 +261,18 @@
     height: 210px;
   }
   .perfect-place-content{
-    width: 50%;
+    width: 40%;
+  }
+  .about-us-section p{
+    width: 100%;
   }
   .newsletter-content{
     padding: 1rem;
   }
   .newsletter-image img{
-    width: 90%;
-    margin-left: 4rem;
+    width: 95%;
+    margin-left: 2rem;
+    height: 400px;
   }
  
 }
