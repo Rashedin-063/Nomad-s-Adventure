@@ -1,0 +1,128 @@
+/* small device responsive design */
+@media screen and (max-width: 600px) {
+  header, main{
+    padding: 0 5%;
+  }
+  .section-heading{
+    font-size: 1.8rem;
+  }
+  .section-description{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .nav-title{
+    font-size: 1.4rem;
+  }
+  .nav-items-container{
+    display: none;
+  }
+  .nav-dropdown{
+    display: block;
+  }
+  .banner-container, .popular-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    min-height: fit-content;
+    background-position: bottom;
+    padding-bottom: 2.4rem;
+  }
+.banner-title{
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+  .banner-description{
+    width: 100%;
+  }
+  .banner-input{
+    flex-direction: column;
+    margin-top: 2rem;
+
+  }
+  .popular-section-content{
+    width: 100%;
+  }
+  .popular-section-image img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.2rem;
+  }
+  footer{
+    padding: 0 1rem;
+    min-height: 50vh;
+  }
+  .footer-content{
+   width: 100%;
+  }
+}
+
+/* medium device responsive design */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  header, main{
+    padding: 0 5%;
+  }
+  .nav-title{
+    font-size: 1.8rem;
+  }
+  .nav-items-container{
+    display: none;
+  }
+  .nav-dropdown{
+    display: block;
+  }
+  .banner-container, .popular-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    min-height: fit-content;
+    background-position: bottom;
+    padding-bottom: 2.4rem;
+  }
+.banner-title{
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+  .banner-description{
+    width: 100%;
+  }
+  .banner-input{
+    flex-direction: column;
+    margin-top: 2rem;
+
+  }
+  .popular-section-content{
+    width: 100%;
+  }
+  .popular-section-image img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.4rem;
+  }
+  footer{
+    padding: 0 1rem;
+    min-height: 50vh;
+  }
+  .footer-content{
+   width: 100%;
+  }
+}
+
+/* large device responsive design */
+@media screen and (min-width: 992px) and (max-width: 1040px) {
+  header, main{
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .section-description{
+    font-size: 0.9rem;
+  }
+  .popular-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 60%;
+    margin-top: 0;
+  }
+}
