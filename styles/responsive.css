@@ -1,128 +1,221 @@
 /* small device responsive design */
 @media screen and (max-width: 600px) {
-  header, main{
+  header,
+  main {
     padding: 0 5%;
   }
-  .section-heading{
+  .section-heading {
     font-size: 1.8rem;
   }
-  .section-description{
+  .section-description {
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
-  .nav-title{
+  .nav-title {
     font-size: 1.4rem;
   }
-  .nav-items-container{
+  .nav-items-container {
     display: none;
   }
-  .nav-dropdown{
+  .nav-dropdown {
     display: block;
   }
-  .banner-container, .popular-section{
+  .banner-container,
+  .popular-section, .newsletter-section {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
     margin-top: 2rem;
     min-height: fit-content;
     background-position: bottom;
-    padding-bottom: 2.4rem;
+    /* padding-bottom: 2.4rem; */
   }
-.banner-title{
-  padding-top: 2rem;
-  font-size: 2rem;
-}
-  .banner-description{
+  .banner-title {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  .banner-description {
     width: 100%;
   }
-  .banner-input{
+  .banner-input {
     flex-direction: column;
-    margin-top: 2rem;
-
+    margin: 2rem 0;
   }
-  .popular-section-content{
+  .popular-section-content {
     width: 100%;
   }
-  .popular-section-image img{
+  .popular-section-image img {
     width: 100%;
     margin-left: 0;
     margin-top: 1.2rem;
   }
-  footer{
-    padding: 0 1rem;
+  .destination-section{
+    margin-top: 2rem;
+  }
+  .destination-section h3{
+    font-size: 1.4rem;
+  }
+  .destination-section p{
+    width: 100%;
+    font-weight: 0.8rem;
+    margin: 0.8rem 0;
+  }
+  .destination-section .card-container {
+   display: flex;
+   flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .destination-section .card-container .card {
+   height: 200px;
+  }
+  .choose-us-section > p {
+    width: 100%;
+  }
+  .choose-us-section .card-container{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .newsletter-content{
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .saving-offer{
+    width: 180px;
+    left: 160px;
+    bottom: 155px;
+  }
+  footer {
+    margin-top: 2rem;
+    padding: 1rem;
     min-height: 50vh;
   }
-  .footer-content{
-   width: 100%;
+  .footer-content {
+    width: 100%;
   }
 }
 
 /* medium device responsive design */
 @media screen and (min-width: 600px) and (max-width: 992px) {
-  header, main{
+  header,
+  main {
     padding: 0 5%;
   }
-  .nav-title{
+  .nav-title {
     font-size: 1.8rem;
   }
-  .nav-items-container{
+  .nav-items-container {
     display: none;
   }
-  .nav-dropdown{
+  .nav-dropdown {
     display: block;
   }
-  .banner-container, .popular-section{
+  .banner-container,
+  .popular-section, .newsletter-section {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
     margin-top: 2rem;
     min-height: fit-content;
     background-position: bottom;
-    padding-bottom: 2.4rem;
+    /* padding-bottom: 2.4rem; */
   }
-.banner-title{
-  padding-top: 2rem;
-  font-size: 2rem;
-}
-  .banner-description{
+  .banner-title {
+    padding-top: 2rem;
+    font-size: 2rem;
+  }
+  .banner-description {
     width: 100%;
   }
-  .banner-input{
+  .banner-input {
     flex-direction: column;
-    margin-top: 2rem;
-
+    margin: 2rem 0;
   }
-  .popular-section-content{
+  .popular-section-content {
     width: 100%;
   }
-  .popular-section-image img{
+  .popular-section-image img {
     width: 100%;
     margin-left: 0;
     margin-top: 1.4rem;
   }
-  footer{
-    padding: 0 1rem;
+  .destination-section{
+    margin-top: 3rem;
+  }
+  .destination-section p{
+    width: 100%;
+    margin: 0.8rem 0;
+  }
+  .destination-section .card-container {
+   display: flex;
+   flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .destination-section .card-container .card {
+   height: 350px;
+  }
+  .choose-us-section > p {
+    width: 100%;
+  }
+  .newsletter-content{
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .saving-offer{
+    width: 240px;
+    
+  }
+  footer {
+    margin-top: 3rem;
+    padding: 1rem;
     min-height: 50vh;
   }
-  .footer-content{
-   width: 100%;
+  .footer-content {
+    width: 100%;
   }
 }
 
 /* large device responsive design */
 @media screen and (min-width: 992px) and (max-width: 1040px) {
-  header, main{
+  header,
+  main {
     max-width: 950px;
     margin: 0 auto;
   }
-  .section-description{
+  .section-description {
     font-size: 0.9rem;
   }
-  .popular-section-content{
+  .popular-section-content {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
     width: 60%;
     margin-top: 0;
+  }
+
+  .choose-us-section .card-container .card-1 {
+    width: 420px;
+    height: 210px;
+  }
+  .choose-us-section .card-container .card-2 {
+    width: 420px;
+    height: 210px;
+  }
+  .choose-us-section .card-container .card-3 {
+    width: 420px;
+    height: 210px;
+  }
+  .newsletter-content{
+    padding: 1rem;
+  }
+  .newsletter-image img{
+    width: 90%;
+    margin-left: 4rem;
+  }
+  .saving-offer{
+    width: 240px;
+    left: 380px;
+    bottom: 140px;
   }
 }
