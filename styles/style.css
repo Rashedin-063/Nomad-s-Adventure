@@ -128,13 +128,16 @@ justify-content: center; */
   line-height: 1.5rem;
   color: rgb(240, 238, 238);
 }
-.banner-input {
+.banner-input-container {
   margin-top: 3.6rem;
   display: inline-flex;
   gap: 1rem;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
   padding: 1rem;
+}
+.banner-input{
+  position: relative;
 }
 .banner-input input {
   border-radius: 0.3rem;
@@ -143,6 +146,18 @@ justify-content: center; */
   height: 2.4rem;
   cursor: pointer;
   transition: transform 0.6s ease;
+}
+.banner-input i{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color:#5a5a5d;
+}
+.search-icon i{
+  color: white;
+  position: absolute;
+  left: -60px;
+  top: 12px;
 }
 .banner-input input::placeholder {
   padding-left: 1rem;
@@ -159,6 +174,7 @@ justify-content: center; */
   border: 2px solid black;
   transform: scale(1.1);
 }
+
 
 /* ---popular section styles */
 /* .popular-section, .newsletter-section {
@@ -465,14 +481,23 @@ ul {
   padding: 5rem;
   color: white;
   height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('../images/mountain-bg.jpg');
-backdrop-filter: grayscale(20%);
+/* backdrop-filter: brightness(50%); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   object-fit: contain;
   border-radius: 1rem;
+  transition: transform 0.3s ease;
+  filter: brightness(120%);
+}
+.about-us-section:hover{
+  outline: white;
+  outline-offset: black;
+  outline: 5px solid #ff5400;
+  outline-offset: 1rem;
+  transform: scale(0.8);
 }
 .about-us-section h3 {
   font-family: "Marck Script", cursive;

@@ -37,9 +37,28 @@
   .banner-description {
     width: 100%;
   }
-  .banner-input {
+  .banner-input-container {
     flex-direction: column;
     margin: 2rem 0;
+  }
+  .banner-input{
+    position: relative;
+    padding: 0;
+  }
+  .banner-input input{
+    width: 100%;
+  }
+  .banner-input i{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color:#5a5a5d;
+  }
+  .search-icon i{
+    color: white;
+    position: absolute;
+    left: -70px;
+    top: 12px;
   }
   .popular-section-content {
     width: 100%;
@@ -157,9 +176,28 @@
   .banner-description {
     width: 100%;
   }
-  .banner-input {
+  .banner-input-container {
     flex-direction: column;
     margin: 2rem 0;
+  }
+  .banner-input{
+    position: relative;
+    padding: 0;
+  }
+  .banner-input input{
+    width: 100%;
+  }
+  .banner-input i{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color:#5a5a5d;
+  }
+  .search-icon i{
+    color: white;
+    position: absolute;
+    left: -70px;
+    top: 12px;
   }
   .popular-section-content {
     width: 100%;
